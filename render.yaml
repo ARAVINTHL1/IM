@@ -2,7 +2,7 @@ services:
   - type: static_site
     name: inventory-management-frontend
     env: static
-    branch: main
+    branch: master
     rootDir: frontend
     installCommand: npm install
     buildCommand: npm run build
