@@ -1,0 +1,9 @@
+services:
+  - type: static_site
+    name: inventory-management-frontend
+    env: static
+    branch: main
+    rootDir: frontend
+    installCommand: npm install
+    buildCommand: npm run build
+    publishPath: build
